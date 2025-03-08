@@ -1,0 +1,17 @@
+{
+  "name": "boaspraticasdecss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "less": "lessc src/styles/main.less build/styles/main.css",
+    "watch": "less-watch-compiler src/styles build/styles main.less",
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.2.2",
+    "less-watch-compiler": "^1.16.3"
+  }
+}
